@@ -23,7 +23,7 @@ jobs:
           CR_TOKEN: "${{ secrets.CI_TOKEN }}"
         with:
           charts_dir: charts
-          charts_repo_url: https://helm.pomerium.io
+          #charts_repo_url: https://helm.pomerium.io
 
   test:
     runs-on: ubuntu-latest
